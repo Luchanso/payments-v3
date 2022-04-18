@@ -1,4 +1,5 @@
 [bitcoin RPC reference](https://developer.bitcoin.org/reference/rpc/index.html)
+[bitcoin.conf example](https://github.com/bitcoin/bitcoin/blob/master/share/examples/bitcoin.conf)
 
 ```sh
 docker run --rm -it \
