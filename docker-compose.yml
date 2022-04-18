@@ -3,12 +3,12 @@ services:
     build: .
     container_name: bitcoin-core
     command:
-      -printtoconsole
-      -regtest=1
       -rpcallowip=0/0
-      -fallbackfee=0.0001
       -rpcbind=0.0.0.0
       -rpcauth='foo:7d9ba5ae63c3d4dc30583ff4fe65a67e$$9e3634e81c11659e3de036d0bf88f89cd169c1039e6e09607562d54765c649cc'
+      -printtoconsole
+      -regtest=1
+      -fallbackfee=0.0001
     ports:
       - 8332:8332
       - 8333:8333
